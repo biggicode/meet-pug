@@ -14,15 +14,15 @@
     "update": "git pull && npm run prod",
     "test": "jest",
     "install:normal": "npm run i --ignore-scripts",
-    "reset-git": "echo \"Reset Git\" && rm -rf .git && git init && git add . && git commit -m \"From Zero to Hired with CodeTap Academy\""
+    "reset-git": "echo \"Reset Git\" && rm -rf .git && git init && git add . && git commit -m \"From Zero to Hired with CodeTgap Academy\""
   },
   "//": "CUSTOM CONFIGURATION",
   "installConfig": {
-    "pnp": true
+    "pnp": false
   },
   "config": {
     "customUrl": "http://pug-starter.codetap.academy",
-    "githubUrl": "http://github.com/marianzburlea/pug-starter.git",
+    "githubUrl": "http://github.com/biggicode/meet-pug.git",
     "deployToGithubIo": true,
     "directory": {
       "development": "tmp",
